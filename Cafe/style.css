@@ -1,0 +1,66 @@
+body {
+    background-image: url(coffee.avif);
+    background-color: #f0ebe4; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.menu {
+    background-color: #f5deb3; 
+    color: #000;
+    width: 60%;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    text-align: center;
+    border-radius: 10px; 
+}
+.menu h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+.menu p {
+    font-style: italic;
+    margin: 10px 0 20px;
+}
+.menu hr {
+    border: none;
+    border-top: 2px solid #800000; 
+    margin: 20px 0;
+}
+.section {
+    margin: 20px 0;
+}
+.section h2 {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.section ul li {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.footer {
+    margin-top: 30px;
+    font-size: 1rem;
+}
+
+.footer a {
+    color: #800000;
+    text-decoration: none;
+    font-weight: bold;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
